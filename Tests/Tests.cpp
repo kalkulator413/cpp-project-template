@@ -8,7 +8,7 @@ TEST_CASE("Addition", "[calc]")
     CHECK(calc.add(2, 3) == 5);
 }
 
-TEST_CASE("AdditionBenchmark", "[benchmark]")
+TEST_CASE("AdditionBenchmark", "[.benchmark]")
 {
     Calc calc;
     BENCHMARK("Addition") { return calc.add(1, 1); };

@@ -1,0 +1,17 @@
+name: Formatting
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run clang-format
+      run: find ./ -not \( -path ./build -prune \) -iname '*.h' -o -iname '*.cpp' -o -iname ".inl" | xargs clang-format -style=file:.config/clang-format.yml -Werror --dry-run
