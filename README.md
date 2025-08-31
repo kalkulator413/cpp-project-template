@@ -1,4 +1,6 @@
-To configure and build:
+### Building the Project
+
+You can configure and build using:
 
 ```
 cmake --preset release
@@ -17,6 +19,15 @@ ninja
 OR
 
 ```
-chmod +x build.sh
-./build.sh
+chmod +x .config/build.sh
+.config/build.sh
+```
+
+### Helpful Tools
+
+You can run `clang-format` on all files by running:
+
+```
+chmod +x .config/format.sh
+.config/format.sh
 ```
