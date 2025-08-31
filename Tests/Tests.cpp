@@ -1,6 +1,6 @@
-#include <catch2/catch_test_macros.hpp>
-#include <catch2/benchmark/catch_benchmark.hpp>
 #include "calc/Calc.h"
+#include <catch2/benchmark/catch_benchmark.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("Addition", "[calc]")
 {
@@ -11,8 +11,5 @@ TEST_CASE("Addition", "[calc]")
 TEST_CASE("AdditionBenchmark", "[benchmark]")
 {
     Calc calc;
-    BENCHMARK("Addition")
-    {
-        return calc.add(1, 1);
-    };
+    BENCHMARK("Addition") { return calc.add(1, 1); };
 }

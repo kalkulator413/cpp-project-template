@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+set -e
 
-mkdir build
+cmake --preset release
+# cmake --preset debug
 cd build
-cmake -DCMAKE_BUILD_TYPE=Debug ..
-# cmake -DCMAKE_BUILD_TYPE=Release ..
-make
+ninja
