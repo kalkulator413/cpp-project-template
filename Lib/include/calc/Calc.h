@@ -1,6 +1,6 @@
 class Calc
 {
   public:
-    int add(int a, int b);
-    int sub(int a, int b);
+    static int add(int a, int b);
+    static int sub(int a, int b);
 };
