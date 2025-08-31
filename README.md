@@ -28,13 +28,13 @@ chmod +x .config/build.sh
 You can find the main executable at
 
 ```
-./build/App/App
+./build/App/Template
 ```
 
 and the unit test executable at
 
 ```
-./build/Tests/Tests
+./build/Tests/UnitTests
 ```
 
 ### Helpful Tools
