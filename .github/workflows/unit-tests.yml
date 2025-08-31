@@ -18,4 +18,4 @@ jobs:
     - name: Build
       run: cd build; ninja
     - name: Test
-      run: ./build/Tests/Tests
+      run: ./build/Tests/UnitTests

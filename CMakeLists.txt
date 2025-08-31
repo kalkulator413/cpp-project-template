@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
  
-project(ProjectName)
+project(Template)
 
 enable_testing()
 

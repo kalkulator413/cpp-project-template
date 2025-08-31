@@ -1,3 +1,3 @@
-add_executable(App Main.cpp)
+add_executable(Template Main.cpp)
  
-target_link_libraries(App Lib)
+target_link_libraries(Template Lib)

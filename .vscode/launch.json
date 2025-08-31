@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug App",
-            "program": "${workspaceFolder}/build/App/App",
+            "program": "${workspaceFolder}/build/App/Template",
             "args": [],
             "cwd": "${workspaceFolder}"
         },
@@ -16,7 +16,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug Tests",
-            "program": "${workspaceFolder}/build/Tests/Tests",
+            "program": "${workspaceFolder}/build/Tests/UnitTests",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
