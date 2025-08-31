@@ -23,6 +23,20 @@ chmod +x .config/build.sh
 .config/build.sh
 ```
 
+### Running Executables
+
+You can find the main executable at
+
+```
+./build/App/App
+```
+
+and the unit test executable at
+
+```
+./build/Tests/Tests
+```
+
 ### Helpful Tools
 
 You can run `clang-format` on all files by running:
